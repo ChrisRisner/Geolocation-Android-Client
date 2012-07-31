@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/lblAddPoiHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_poi_header"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Button
+            android:id="@+id/btnSelectImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/select_image" />
+
+        <ImageView
+            android:id="@+id/imgSelectedImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/androidmarker" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp" >
+
+            <Button
+                android:id="@+id/btnGetSAS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/get_sas" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/lblSASDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="@string/sas_details" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp" >
+
+            <Button
+                android:id="@+id/btnSavePOI"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/save_poi" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

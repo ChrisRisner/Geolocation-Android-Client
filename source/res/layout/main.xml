@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello" />
+
+    <LinearLayout
+        android:id="@+id/linearLayoutLongitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/lblLongitudeHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/home_longitude" />
+
+        <TextView
+            android:id="@+id/lblLongitudeValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutLatitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/lblLatitudeHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/home_latitude" />
+
+        <TextView
+            android:id="@+id/lblLatitudeValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <com.google.android.maps.MapView
+        android:id="@+id/mapMain"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:apiKey="0CVuzIWIz69QaHHZTVEUPyFCOPkETBLnuKPRdgg"
+        android:clickable="true" />
+
+</LinearLayout>

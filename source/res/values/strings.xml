@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Welcome to GeoDemo!\nTo update the location on the emulator, use DDMS or telnet to \"localhost 5554\" and use the command\n"geo fix -XX.XX YY.YY"</string>
+    <string name="app_name">Geodemo</string>
+    <string name="home_latitude">Latitude:</string>
+    <string name="home_longitude">Longitude</string>
+    <string name="menu_map">Map</string>
+    <string name="menu_poi">Add POI</string>
+    <string name="add_poi_header">Add New Point of Interest</string>
+    <string name="save_poi">Save Point of Interest</string>
+    <string name="label_container">Container Name</string>
+    <string name="get_sas">Get SAS</string>
+    <string name="poi_details">POI Details:</string>
+    <string name="sas_details">SAS Details:</string>
+    <string name="select_image">Select Image</string>
+
+</resources>
