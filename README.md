@@ -1,3 +1,9 @@
+---
+services:
+platforms:
+author: azure
+---
+
 # Geolocation - The Android Client
 This is an Android client for the Geolocation service.  The client depends on a web service backend written in PHP which is [available here](https://github.com/WindowsAzure-Samples/Geolocation-PHP-Service).  Once the PHP site is up and running in Windows Azure Websites, the Android client will allow users to see their current position and any points tagged near them.  In addition, the user can upload new points with associated photos or videos..  This sample was built using Eclipse and the Android SDK.
 
